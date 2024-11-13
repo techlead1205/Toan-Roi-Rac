@@ -23,7 +23,7 @@ void Bellmanford(int V, vector<vector<int>> &G, int n) {
     p[n] = n;  // Dinh truoc cua nguon la chinh no
     bool ok = false;
 
-// Relaxation tat ca cac canh toi da V-1 lan
+// Relaxation tat ca cac canh toi da V-2 lan
     for (int i = 1; i <= V - 2; i++) {
         ok = true;
         for (int v = 0; v < V; v++) {
